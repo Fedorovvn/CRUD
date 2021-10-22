@@ -11,7 +11,7 @@
     <packaging>war</packaging>
 
     <properties>
-        <spring.version>5.3.10</spring.version>
+        <spring.version>5.3.11</spring.version>
     </properties>
 
     <dependencies>
@@ -29,11 +29,22 @@
             <scope>provided</scope>
         </dependency>
 
-
         <dependency>
             <groupId>org.thymeleaf</groupId>
             <artifactId>thymeleaf-spring5</artifactId>
             <version>3.0.12.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.5.8.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.26</version>
         </dependency>
 
     </dependencies>
